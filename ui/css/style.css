@@ -1,0 +1,51 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/poppin.ttf);
+}
+
+@font-face {
+    font-family: boxed;
+    src: url(fonts/boxed.ttf);
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+#floating {
+    font-family: boxed;
+    position: absolute;
+    height: 20%;
+    width: 18%;
+    left: 90%;
+    top: 30%;
+    transform: translate(-50%, -50%); 
+}
+
+#floating-content {
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    font-size: 14px;
+    background-color: black;  
+	color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px black;
+}
+
+#show::-webkit-scrollbar {
+    display: none;
+}
+
+.blue {color: #22b2dd;}
+.red {color: #f34545;}
+.green {color: #32b643;}
+.yellow {color: #fffb00;} 
+.purple {color: #e19fff;}
+.grey {color: #cfcfcf;}
+.darkgrey {color: #8d8d8d;}
+.black {color: #000000;}
+.gold {color: #e0d100;}
