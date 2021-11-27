@@ -1,12 +1,16 @@
+<html>
 <div align="center"> <h1>RZ Floating Notification</h1> </div>
 
 Preview: 
 
 <div align="center"> <h2>How to create a Custom Floating Notification UI:</h2> </div>
+</html>
 ```lua
 exports['rz-floating']:showFloating(Text)
 ```
+<html>
 <div align="center"> <h2>Example:</h2> </div>
+</html>
 ```lua
 exports['rz-floating']:showFloating('Press ~r~[E]~w~ to interact')
 ```
