@@ -1,6 +1,7 @@
 <div align="center"> <h1>RZ Floating Notification </h1> </div>
 
-Preview:
+Preview: https://i.imgur.com/fNRxPef.png
+Video Showcase: https://imgur.com/a/BFwR8QY
 
 How to create a Custom Floating Notification UI:
 ```lua
