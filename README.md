@@ -1,4 +1,4 @@
-<div align="center">RZ Floating Notification</div>
+<div align="center"> <h1>RZ Floating Notification </h1> </div>
 
 Preview:
 
