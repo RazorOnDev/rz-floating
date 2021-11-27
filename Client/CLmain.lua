@@ -1,3 +1,4 @@
+
 -- Client Side RZ Floating Notify --
 
 --[[ EXAMPLE:
@@ -6,7 +7,7 @@ exports['rz-floating']:showFloating('Press ~r~[E]~w~ to interact')
 ]]
 
 -- Test Command --
-RegisterCommand('+testFloating', function(source, args, rawCommand)
+RegisterCommand('+testFloating', function()
 	showFloating('Press ~r~[E]~w~ to interact.')
 end)
 
@@ -14,10 +15,10 @@ end)
 -- Functions --
 function showFloating(content) 
     SendNUIMessage({
-        floating = content 
+        help = content 
     })
 end
 
-RegisterNetEvent('rz-floating:showFloating', function(message)
-    showFloating(message)
+RegisterNetEvent('rz-floating:showFloating', function(content)
+    showFloating(content)
 end)

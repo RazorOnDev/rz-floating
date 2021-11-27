@@ -1,27 +1,31 @@
+/* CSS by Ryze#7988 and .Razor#0900*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 @font-face {
-    font-family: poppins;
-    src: url(fonts/poppin.ttf);
+	font-family: inter;
+	src: url('/ui/fonts/Inter.ttf');
 }
 
 @font-face {
-    font-family: boxed;
-    src: url(fonts/boxed.ttf);
+	font-family: baloo;
+	src: url('/ui/fonts/BalooBhai2.ttf');
 }
 
 body {
     overflow: hidden;
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: transparent !important;
 }
 
 #floating {
-    font-family: boxed;
+    font-family: baloo;
     position: absolute;
     height: 20%;
     width: 18%;
-    left: 90%;
-    top: 30%;
+    left: 10%;
+    top: 57%;
     transform: translate(-50%, -50%); 
 }
 
@@ -34,10 +38,6 @@ body {
 	color: white; 
     border-radius: 5px; 
     box-shadow: 0 0 10px black;
-}
-
-#show::-webkit-scrollbar {
-    display: none;
 }
 
 .blue {color: #22b2dd;}
